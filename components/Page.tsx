@@ -1,6 +1,6 @@
 export default function Page({ title, intro, children }: { title: string; intro?: string; children: React.ReactNode }) {
   return (
-    <section className="mx-auto max-w-6xl px-5 pt-16">
+    <section className="mx-auto max-w-6xl px-5 py-16">
       <h1 className="mb-3 text-4xl font-extrabold tracking-tight">{title}</h1>
       {intro && <p className="mb-8 max-w-prose text-lg text-slate-600">{intro}</p>}
       {children}

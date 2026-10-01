@@ -4,7 +4,7 @@ import { nav } from "@/lib/content";
 import { site, legalPages } from "@/lib/site";
 export default function Footer() {
   return (
-    <footer className="mt-20 border-t border-slate-300 px-5 py-10">
+    <footer className="border-t-4 border-t-amber bg-white px-5 py-12">
       <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
         <div><Image src="/logo.png" alt="Dynamis Technologies" width={200} height={133} className="mb-2 h-auto w-48" /><p className="text-slate-600">{site.tagline}</p>
           <address className="mt-3 not-italic text-slate-600">{site.contactPerson}<br />{site.locality}, {site.region}, {site.country}<br /><a href={`tel:${site.phoneIntl}`}>{site.phone}</a>{site.email && <><br /><a href={`mailto:${site.email}`}>{site.email}</a></>}</address></div>
