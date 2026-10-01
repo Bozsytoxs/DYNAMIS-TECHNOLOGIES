@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-paper text-ink antialiased}
+:focus-visible{outline:3px solid #c49a22;outline-offset:2px}
+.btn{@apply inline-block rounded-lg bg-teal px-5 py-3 font-semibold text-white}
+.btn-o{@apply inline-block rounded-lg border-2 border-ink px-5 py-3 font-semibold}
+.card{@apply rounded-xl border border-slate-300 bg-white p-5}
